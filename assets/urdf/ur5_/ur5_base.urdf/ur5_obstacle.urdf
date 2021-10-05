@@ -1,0 +1,16 @@
+<?xml version="0.0" ?>
+<robot name="ur5">
+	<link name="obstacle">
+		<inertial>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<mass value="0.52360"/>
+			<inertia ixx="0.00052" ixy="0" ixz="0" iyy="0.00052" iyz="0" izz="0.00052"/>
+		</inertial>
+		<collision>
+			<origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+			<geometry>
+				<sphere radius="0.05000"/>
+			</geometry>
+		</collision>
+	</link>
+</robot>

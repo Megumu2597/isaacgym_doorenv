@@ -1,0 +1,17 @@
+<mujoco model="blue_wrist">
+    <!-- <compiler angle="radian" meshdir="../../robot/meshes_blue_v1/" strippath="false"/> -->
+    <!-- <compiler angle="radian" meshdir="/home/tsukamoto/isaacgym/assets/mjcf/robot/meshes_blue_v1/" strippath="false"/> -->
+    <option gravity="0 0 0"/>
+    <asset>
+    		<!-- <mesh file="door/pullknobs/1555111990/body_1.stl" name="door_knob_1" scale="0.001 0.001 0.001"/> -->
+        <!-- <mesh name="wrist_roll_link" file="/robot/meshes_blue_v1/hand_base_link.STL" /> -->
+        <!-- <mesh name="hook_0" file="hook_0.STL" scale="0.001 0.001 0.001"/> -->
+        <!-- <mesh name="hook_1" file="hook_1.STL" scale="0.001 0.001 0.001"/> -->
+        <!-- <mesh name="hook_2" file="hook_2.STL" scale="0.001 0.001 0.001"/> -->
+        <!-- <mesh name="hook_3" file="hook_3.STL" scale="0.001 0.001 0.001"/> -->
+        <texture builtin="flat" height="32" name="plastic" type="2d" width="32"/>
+        <texture builtin="flat" height="32" name="metal" type="2d" width="32"/>
+        <material name="Plastic" shininess="0.3" specular="0.3" texture="plastic"/>
+    </asset>
+
+</mujoco>
